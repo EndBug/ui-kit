@@ -9,7 +9,7 @@
   --color-primary: hsl(175, 55%, 45%);
   --color-primary-20: hsl(175, 55%, 20%);
   --color-primary-25: hsl(175, 55%, 25%);
-  --color-primary-30: hsl(175, 55%, 33%);
+  --color-primary-30: hsl(175, 55%, 30%);
   --color-primary-40: hsl(175, 55%, 40%);
   --color-primary-85: hsl(175, 70%, 85%);
   --color-primary-95: hsl(175, 90%, 95%);
@@ -207,7 +207,7 @@
     95%
   );
   --background-color-for-table-cell-when-hovered: hsl(232, 18%, 98%);
-  --background-color-for-table-header: hsl(232, 18%, 95%);
+  --background-color-for-table-header: hsl(232, 18%, 98%);
   --background-color-for-tag: hsl(232, 18%, 95%);
   --background-color-for-tag-warning: hsl(
     25.110132158590307,
@@ -315,6 +315,8 @@
   --border-for-select-input-tag: 1px solid var(--color-neutral-85);
   --border-for-radio-input-option: 2px;
   --border-for-calendar-menu-when-focused: none;
+  --border-bottom-for-table-header: var(--border-width-1) solid
+    var(--border-color-for-table-header-as-bottom);
   --border-color-for-input: hsl(232, 18%, 80%);
   --border-color-for-input-when-focused: hsl(175, 55%, 45%);
   --border-color-for-input-when-disabled: hsl(232, 18%, 80%);
@@ -331,7 +333,7 @@
   --border-color-for-button-as-icon-as-primary: hsl(232, 18%, 80%);
   --border-color-for-button-as-icon-when-disabled: #fff;
   --border-color-for-table-header: #fff;
-  --border-color-for-table-header-as-bottom: hsl(232, 18%, 90%);
+  --border-color-for-table-header-as-bottom: hsl(232, 18%, 95%);
   --border-color-for-table-manager-droppable-list: hsl(232, 18%, 80%);
   --border-color-for-collapsible-panel-header: hsl(232, 18%, 90%);
   --border-color-for-stamp-when-error: hsl(339.1304347826087, 100%, 85%);
@@ -436,7 +438,8 @@
   --font-color-for-link-as-secondary: #1a1a1a;
   --font-color-for-link-as-primary-when-active: hsl(175, 55%, 45%);
   --font-color-for-link-as-secondary-when-active: hsl(175, 55%, 45%);
-  --font-color-for-table-header: #1a1a1a;
+  --font-color-for-table-header: hsl(232, 18%, 40%);
+  --font-color-for-table-header-sort-icons: hsl(232, 18%, 60%);
   --font-color-for-localized-input-label: hsl(232, 18%, 60%);
   --font-color-for-view-switcher: hsl(232, 18%, 40%);
   --font-color-for-view-switcher-when-disabled: hsl(232, 18%, 60%);
@@ -512,6 +515,7 @@
   --font-size-for-stamp: 0.875rem;
   --font-size-for-view-switcher: 0.875rem;
   --font-size-for-table: 0.875rem;
+  --font-size-for-table-header: 0.75rem;
   --font-size-for-avatar-as-small: 0.875rem;
   --font-size-for-avatar-as-medium: 1rem;
   --font-size-for-avatar-as-big: 2.5rem;
@@ -539,7 +543,7 @@
   --font-weight-for-text-as-caption: 400;
   --font-weight-for-text-as-detail: 400;
   --font-weight-for-button: 500;
-  --font-weight-for-table-header: 600;
+  --font-weight-for-table-header: 500;
   --font-weight-for-text-as-bold: 600;
   --margin-for-table-header: 8px;
   --margin-for-table-cell-as-condensed: 8px;
