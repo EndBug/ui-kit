@@ -1,5 +1,17 @@
 # @commercetools-uikit/avatar
 
+## 16.8.0
+
+### Minor Changes
+
+- [#2621](https://github.com/commercetools/ui-kit/pull/2621) [`fbd12e273`](https://github.com/commercetools/ui-kit/commit/fbd12e2738b8156e7b783103497cd90e41a229dd) Thanks [@kterry1](https://github.com/kterry1)! - Added color and icon props for `Avatar` component as well as updated font size/weight/color
+
+### Patch Changes
+
+- Updated dependencies [[`1713d8450`](https://github.com/commercetools/ui-kit/commit/1713d8450b9230f197421e97a905754e35fe08f7), [`1112bdf5a`](https://github.com/commercetools/ui-kit/commit/1112bdf5a26dcd2bab76172d03a7314365a930ba), [`fbd12e273`](https://github.com/commercetools/ui-kit/commit/fbd12e2738b8156e7b783103497cd90e41a229dd)]:
+  - @commercetools-uikit/design-system@16.8.0
+  - @commercetools-uikit/utils@16.8.0
+
 ## 16.7.5
 
 ### Patch Changes

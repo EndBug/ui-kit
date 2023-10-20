@@ -1,5 +1,12 @@
 # visual-testing-app
 
+## 12.1.8
+
+### Patch Changes
+
+- Updated dependencies [[`1713d8450`](https://github.com/commercetools/ui-kit/commit/1713d8450b9230f197421e97a905754e35fe08f7), [`1112bdf5a`](https://github.com/commercetools/ui-kit/commit/1112bdf5a26dcd2bab76172d03a7314365a930ba), [`fbd12e273`](https://github.com/commercetools/ui-kit/commit/fbd12e2738b8156e7b783103497cd90e41a229dd)]:
+  - @commercetools-uikit/design-system@16.8.0
+
 ## 12.1.7
 
 ### Patch Changes

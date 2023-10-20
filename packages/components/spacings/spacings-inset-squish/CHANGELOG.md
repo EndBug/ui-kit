@@ -1,5 +1,15 @@
 # @commercetools-uikit/spacings-inset-squish
 
+## 16.8.0
+
+### Patch Changes
+
+- [#2624](https://github.com/commercetools/ui-kit/pull/2624) [`50242964d`](https://github.com/commercetools/ui-kit/commit/50242964d2cab34b1cc570eeaa2726af4255634e) Thanks [@ddouglasz](https://github.com/ddouglasz)! - Updated `Inset` and `InsetSquish` components styles so they both use all available vertical space from their parent components.
+
+- Updated dependencies [[`1713d8450`](https://github.com/commercetools/ui-kit/commit/1713d8450b9230f197421e97a905754e35fe08f7), [`1112bdf5a`](https://github.com/commercetools/ui-kit/commit/1112bdf5a26dcd2bab76172d03a7314365a930ba), [`fbd12e273`](https://github.com/commercetools/ui-kit/commit/fbd12e2738b8156e7b783103497cd90e41a229dd)]:
+  - @commercetools-uikit/design-system@16.8.0
+  - @commercetools-uikit/utils@16.8.0
+
 ## 16.7.5
 
 ### Patch Changes
