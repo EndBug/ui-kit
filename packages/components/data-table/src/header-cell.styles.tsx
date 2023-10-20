@@ -158,8 +158,19 @@ const BaseHeaderCell = styled.th<TBaseHeaderCell>`
   /* right border that doesn't count towards the column width */
   box-shadow: inset -1px 0 ${designTokens.borderColorForTableHeader};
 
-  border-bottom: ${designTokens.borderWidth1} solid
-    ${designTokens.colorNeutral95};
+  /**
+   * bottom border that doesn't overshadow the resize indicator
+   */
+  :after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: ${designTokens.borderWidth1};
+    bottom: 0;
+    left: 0;
+    background-color: ${designTokens.colorNeutral95};
+  }
 
   /* this ensures that, when dragging this header's column resizer
   it remains above the rest of the headers, preventing accidental hovers/flickering */
