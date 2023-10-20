@@ -47,7 +47,7 @@
   "resolutions": {
     "@types/react": "17.0.62",
     "@types/react-dom": "17.0.20",
-    "terser-webpack-plugin": "2.3.8",
+    "terser-webpack-plugin": "5.3.9",
     "webpack": "4.47.0"
   },
   "engines": {
