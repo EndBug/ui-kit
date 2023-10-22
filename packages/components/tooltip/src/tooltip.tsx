@@ -239,7 +239,8 @@ const Tooltip = (props: TTooltipProps) => {
   const { closeAfter } = props;
 
   const handleLeave = useCallback(
-    (event) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (event: any) => {
       clearTimeout(enterTimer.current);
       clearTimeout(leaveTimer.current);
 
