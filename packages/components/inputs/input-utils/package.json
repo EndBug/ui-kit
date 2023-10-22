@@ -25,7 +25,7 @@
     "@commercetools-uikit/flat-button": "16.7.5",
     "@commercetools-uikit/icons": "16.7.5",
     "@commercetools-uikit/utils": "16.7.5",
-    "@emotion/react": "^11.10.5",
+    "@emotion/react": "^11.11.1",
     "prop-types": "15.8.1",
     "react-textarea-autosize": "8.4.0"
   },
